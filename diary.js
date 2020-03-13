@@ -1,6 +1,6 @@
  jQuery(document).ready(function ()
  {
-  $(`#day-title`).slideUP();
+  $(`#day-title`).hide();
         $('#manth-title').click(function() 
         { 
           $(`#day-title`).slideDown();
