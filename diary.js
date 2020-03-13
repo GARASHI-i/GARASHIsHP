@@ -2,12 +2,12 @@
 
  jQuery(document).ready(function ()
         {
-          $(`#day-title`).hide();
+          $(`#day-title`).slideUp();
         });
         
         $(`#manth-title`).click(function()
         {
-          $(`#day-title`).show();
+          $(`#day-title`).slideDown();
         });
 
 
