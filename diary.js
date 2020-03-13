@@ -7,7 +7,7 @@
         
         $(`#manth-title`).click(function()
         {
-          $(`#day-title`).show();
+          $(`#day-title`).slide();
         });
 
 
