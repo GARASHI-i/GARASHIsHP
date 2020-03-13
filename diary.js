@@ -1,6 +1,6 @@
 
 
- $(function()
+ jQuery(document).ready(function ()
         {
           $(`#day-title`).hide();
         });
