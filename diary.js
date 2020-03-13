@@ -1,9 +1,6 @@
-jQuery(document).ready(function () {
+$(function () {
 
- $(function()
-        {
           $(`#day-title`).hide();
-        });
         
         $(`#manth-title`).click(function()
         {
