@@ -28,6 +28,7 @@ body
 .container a:hover
 {
   background-color:rgb(255,210,230);
+
 }
 .container a:active
 {
@@ -36,14 +37,51 @@ body
   left:px;
 }
 
-
-img
+.image-area
+{
+  width: 80%;
+  margin: 30px auto 0 auto;
+  padding-left: 5%;
+}
+.lp-title
+{
+  position: absolute;
+  top: 48%;
+  left: 13%;
+  font-size: 18px;
+  color: #55f;
+}
+.memo-title
+{
+  position: absolute;
+  top: 48%;
+  left: 63%;
+  font-size: 18px;
+  color: #55f;
+}
+.lp-image
 {
   margin-top:50px;
-  width:80%;
+  width:40%;
   border-radius:10%;
+  float: left;
+  box-shadow: 0 0 0 5px #aaf;
 }
-
+.memo-image
+{
+  margin-top:50px;
+  width:40%;
+  border-radius:10%;
+  margin-left: 50px;
+  box-shadow: 0 0 0 5px #aaf;
+}
+.image:hover
+{
+  position: relative;
+  top: -8px;
+  box-shadow: 0 0 20px 0 #55a;
+  transition: .2s;
+}
 .main
 {
   text-align:center;
