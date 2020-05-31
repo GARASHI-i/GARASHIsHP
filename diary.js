@@ -1,9 +1,13 @@
 
 $(function()
 {
-        $(`.manth`).click(function()
+        $(`.manth03`).click(function()
         {
-          $(`#day-title`).slideDown();
+          $(`.day-title03`).slideDown();
+        })
+        $(`.manth05`).click(function()
+        {
+          $(`.day-title05`).slideDown();
         })
 });
 
