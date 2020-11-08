@@ -59,6 +59,14 @@ body
   font-size: 18px;
   color: #55f;
 }
+.kinto-title
+{
+  position: absolute;
+  top: 60%;
+  left: 63%;
+  font-size: 18px;
+  color: #55f;
+}
 .lp-image
 {
   margin-top:50px;
@@ -75,6 +83,7 @@ body
   margin-left: 50px;
   box-shadow: 0 0 0 5px #aaf;
 }
+
 .image:hover
 {
   position: relative;
